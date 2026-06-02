@@ -1,0 +1,134 @@
+
+
+NET "CE" LOC = J15;
+NET "clk" LOC = E3;
+
+
+NET "an[7]" IOSTANDARD = LVCMOS18;
+NET "an[6]" IOSTANDARD = LVCMOS18;
+NET "an[5]" IOSTANDARD = LVCMOS18;
+NET "an[4]" IOSTANDARD = LVCMOS18;
+NET "an[3]" IOSTANDARD = LVCMOS18;
+NET "an[2]" IOSTANDARD = LVCMOS18;
+NET "an[1]" IOSTANDARD = LVCMOS18;
+NET "an[0]" IOSTANDARD = LVCMOS18;
+NET "seg[7]" IOSTANDARD = LVCMOS18;
+NET "seg[6]" IOSTANDARD = LVCMOS18;
+NET "seg[5]" IOSTANDARD = LVCMOS18;
+NET "seg[4]" IOSTANDARD = LVCMOS18;
+NET "seg[3]" IOSTANDARD = LVCMOS18;
+NET "seg[2]" IOSTANDARD = LVCMOS18;
+NET "seg[1]" IOSTANDARD = LVCMOS18;
+NET "seg[0]" IOSTANDARD = LVCMOS18;
+NET "CE" IOSTANDARD = LVCMOS18;
+NET "clk" IOSTANDARD = LVCMOS18;
+NET "reset" IOSTANDARD = LVCMOS18;
+NET "S" IOSTANDARD = LVCMOS18;
+
+
+NET "S" LOC = L16;
+NET "reset" LOC = M18;
+NET "seg[0]" LOC = T10;
+NET "seg[1]" LOC = R10;
+NET "seg[2]" LOC = K16;
+NET "seg[3]" LOC = K13;
+NET "seg[4]" LOC = P15;
+NET "seg[5]" LOC = T11;
+NET "seg[6]" LOC = L18;
+NET "seg[7]" LOC = H15;
+NET "an[0]" LOC = J17;
+NET "an[1]" LOC = J18;
+NET "an[2]" LOC = T9;
+NET "an[3]" LOC = J14;
+NET "an[4]" LOC = P14;
+NET "an[5]" LOC = T14;
+NET "an[6]" LOC = K2;
+NET "an[7]" LOC = U13;
+
+
+#NET "CE" LOC = V10;
+#NET "clk" LOC = E3;
+
+
+#NET "an[7]" IOSTANDARD = LVCMOS18;
+#NET "an[6]" IOSTANDARD = LVCMOS18;
+#NET "an[5]" IOSTANDARD = LVCMOS18;
+#NET "an[4]" IOSTANDARD = LVCMOS18;
+#NET "an[3]" IOSTANDARD = LVCMOS18;
+#NET "an[2]" IOSTANDARD = LVCMOS18;
+#NET "an[1]" IOSTANDARD = LVCMOS18;
+#NET "an[0]" IOSTANDARD = LVCMOS18;
+#NET "seg[7]" IOSTANDARD = LVCMOS18;
+#NET "seg[6]" IOSTANDARD = LVCMOS18;
+#NET "seg[5]" IOSTANDARD = LVCMOS18;
+#NET "seg[4]" IOSTANDARD = LVCMOS18;
+#NET "seg[3]" IOSTANDARD = LVCMOS18;
+#NET "seg[2]" IOSTANDARD = LVCMOS18;
+#NET "seg[1]" IOSTANDARD = LVCMOS18;
+#NET "seg[0]" IOSTANDARD = LVCMOS18;
+#NET "CE" IOSTANDARD = LVCMOS18;
+#NET "clk" IOSTANDARD = LVCMOS18;
+#NET "reset" IOSTANDARD = LVCMOS18;
+#NET "S" IOSTANDARD = LVCMOS18;
+
+
+#NET "S" LOC = J15;
+#NET "reset" LOC = N17;
+
+
+
+
+NET "load_data[13]" IOSTANDARD = LVCMOS18;
+NET "load_data[12]" IOSTANDARD = LVCMOS18;
+NET "load_data[11]" IOSTANDARD = LVCMOS18;
+NET "load_data[10]" IOSTANDARD = LVCMOS18;
+NET "load_data[9]" IOSTANDARD = LVCMOS18;
+NET "load_data[8]" IOSTANDARD = LVCMOS18;
+NET "load_data[7]" IOSTANDARD = LVCMOS18;
+NET "load_data[6]" IOSTANDARD = LVCMOS18;
+NET "load_data[5]" IOSTANDARD = LVCMOS18;
+NET "load_data[4]" IOSTANDARD = LVCMOS18;
+NET "load_data[3]" IOSTANDARD = LVCMOS18;
+NET "load_data[2]" IOSTANDARD = LVCMOS18;
+NET "load_data[1]" IOSTANDARD = LVCMOS18;
+NET "load_data[0]" IOSTANDARD = LVCMOS18;
+
+
+NET "load_data[13]" LOC = V10;
+NET "load_data[12]" LOC = U11;
+NET "load_data[11]" LOC = U12;
+NET "load_data[10]" LOC = H6;
+NET "load_data[9]" LOC = T13;
+NET "load_data[8]" LOC = R16;
+NET "load_data[7]" LOC = U8;
+NET "load_data[6]" LOC = T8;
+NET "load_data[5]" LOC = R13;
+NET "load_data[4]" LOC = U18;
+NET "load_data[3]" LOC = T18;
+NET "load_data[2]" LOC = R17;
+NET "load_data[1]" LOC = R15;
+NET "load_data[0]" LOC = M13;
+
+
+NET "load" IOSTANDARD = LVCMOS18;
+
+
+NET "load" LOC = M17;
+
+
+NET "AlarmLED" IOSTANDARD = LVCMOS18;
+
+
+NET "AlarmLED" LOC = G14;
+NET "setTimer" LOC = P17;
+
+
+NET "setTimer" IOSTANDARD = LVCMOS18;
+
+# PlanAhead Generated physical constraints 
+
+NET "snooze" LOC = P18;
+
+# PlanAhead Generated IO constraints 
+
+NET "snooze" IOSTANDARD = LVCMOS18;

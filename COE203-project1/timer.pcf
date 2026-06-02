@@ -1,0 +1,45 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue May 06 22:18:29 2025
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "CE" LOCATE = SITE "J15" LEVEL 1;
+COMP "load_data<0>" LOCATE = SITE "M13" LEVEL 1;
+COMP "an<0>" LOCATE = SITE "J17" LEVEL 1;
+COMP "load_data<1>" LOCATE = SITE "R15" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "J18" LEVEL 1;
+COMP "load_data<2>" LOCATE = SITE "R17" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "T9" LEVEL 1;
+COMP "load_data<3>" LOCATE = SITE "T18" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "J14" LEVEL 1;
+COMP "load_data<4>" LOCATE = SITE "U18" LEVEL 1;
+COMP "an<4>" LOCATE = SITE "P14" LEVEL 1;
+COMP "load_data<5>" LOCATE = SITE "R13" LEVEL 1;
+COMP "an<5>" LOCATE = SITE "T14" LEVEL 1;
+COMP "clk" LOCATE = SITE "E3" LEVEL 1;
+COMP "load_data<6>" LOCATE = SITE "T8" LEVEL 1;
+COMP "an<6>" LOCATE = SITE "K2" LEVEL 1;
+COMP "load_data<7>" LOCATE = SITE "U8" LEVEL 1;
+COMP "an<7>" LOCATE = SITE "U13" LEVEL 1;
+COMP "load_data<8>" LOCATE = SITE "R16" LEVEL 1;
+COMP "load_data<9>" LOCATE = SITE "T13" LEVEL 1;
+COMP "AlarmLED" LOCATE = SITE "G14" LEVEL 1;
+COMP "load_data<10>" LOCATE = SITE "H6" LEVEL 1;
+COMP "load_data<11>" LOCATE = SITE "U12" LEVEL 1;
+COMP "load_data<12>" LOCATE = SITE "U11" LEVEL 1;
+COMP "load_data<13>" LOCATE = SITE "V10" LEVEL 1;
+COMP "snooze" LOCATE = SITE "P18" LEVEL 1;
+COMP "seg<0>" LOCATE = SITE "T10" LEVEL 1;
+COMP "seg<1>" LOCATE = SITE "R10" LEVEL 1;
+COMP "setTimer" LOCATE = SITE "P17" LEVEL 1;
+COMP "seg<2>" LOCATE = SITE "K16" LEVEL 1;
+COMP "seg<3>" LOCATE = SITE "K13" LEVEL 1;
+COMP "seg<4>" LOCATE = SITE "P15" LEVEL 1;
+COMP "seg<5>" LOCATE = SITE "T11" LEVEL 1;
+COMP "seg<6>" LOCATE = SITE "L18" LEVEL 1;
+COMP "seg<7>" LOCATE = SITE "H15" LEVEL 1;
+COMP "reset" LOCATE = SITE "M18" LEVEL 1;
+COMP "S" LOCATE = SITE "L16" LEVEL 1;
+COMP "load" LOCATE = SITE "M17" LEVEL 1;
+SCHEMATIC END;
+

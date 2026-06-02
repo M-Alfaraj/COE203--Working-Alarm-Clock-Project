@@ -1,0 +1,8 @@
+verilog work "../DISP7SEG.v"
+verilog work "oneKhz.v"
+verilog work "onehz.v"
+verilog work "mod6.v"
+verilog work "mod2.v"
+verilog work "mod10.v"
+verilog work "hoursMod10.v"
+verilog work "timer.v"

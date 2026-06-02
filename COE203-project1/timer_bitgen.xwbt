@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/Xilinx_project_VM/COE203-project1/timer.ncd
+OUTFILE=/home/ise/Xilinx_project_VM/COE203-project1/timer.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=/home/ise/Xilinx_project_VM/COE203-project1
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620
