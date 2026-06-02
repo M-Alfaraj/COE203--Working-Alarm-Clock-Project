@@ -1,0 +1,74 @@
+xst -intstyle ise -ifn "/home/ise/Xilinx_project_VM/COE203-project1/AlarmClock.xst" -ofn "/home/ise/Xilinx_project_VM/COE203-project1/AlarmClock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc7a100t-csg324-3 AlarmClock.ngc AlarmClock.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o AlarmClock_map.ncd AlarmClock.ngd AlarmClock.pcf 
+par -w -intstyle ise -ol high -mt off AlarmClock_map.ncd AlarmClock.ncd AlarmClock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml AlarmClock.twx AlarmClock.ncd -o AlarmClock.twr AlarmClock.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f AlarmClock.ut AlarmClock.ncd 
+xst -intstyle ise -ifn "/home/ise/Xilinx_project_VM/COE203-project1/AlarmClock.xst" -ofn "/home/ise/Xilinx_project_VM/COE203-project1/AlarmClock.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_project_VM/COE203-project1/AlarmClock.xst" -ofn "/home/ise/Xilinx_project_VM/COE203-project1/AlarmClock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc7a100t-csg324-3 AlarmClock.ngc AlarmClock.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o AlarmClock_map.ncd AlarmClock.ngd AlarmClock.pcf 
+par -w -intstyle ise -ol high -mt off AlarmClock_map.ncd AlarmClock.ncd AlarmClock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml AlarmClock.twx AlarmClock.ncd -o AlarmClock.twr AlarmClock.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f AlarmClock.ut AlarmClock.ncd 
+xst -intstyle ise -ifn "/home/ise/Xilinx_project_VM/COE203-project1/AlarmClock.xst" -ofn "/home/ise/Xilinx_project_VM/COE203-project1/AlarmClock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc7a100t-csg324-3 AlarmClock.ngc AlarmClock.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o AlarmClock_map.ncd AlarmClock.ngd AlarmClock.pcf 
+par -w -intstyle ise -ol high -mt off AlarmClock_map.ncd AlarmClock.ncd AlarmClock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml AlarmClock.twx AlarmClock.ncd -o AlarmClock.twr AlarmClock.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f AlarmClock.ut AlarmClock.ncd 
+xst -intstyle ise -ifn "/home/ise/Xilinx_project_VM/COE203-project1/AlarmClock.xst" -ofn "/home/ise/Xilinx_project_VM/COE203-project1/AlarmClock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc7a100t-csg324-3 AlarmClock.ngc AlarmClock.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o AlarmClock_map.ncd AlarmClock.ngd AlarmClock.pcf 
+par -w -intstyle ise -ol high -mt off AlarmClock_map.ncd AlarmClock.ncd AlarmClock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml AlarmClock.twx AlarmClock.ncd -o AlarmClock.twr AlarmClock.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f AlarmClock.ut AlarmClock.ncd 
+xst -intstyle ise -ifn "/home/ise/Xilinx_project_VM/COE203-project1/AlarmClock.xst" -ofn "/home/ise/Xilinx_project_VM/COE203-project1/AlarmClock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc7a100t-csg324-3 AlarmClock.ngc AlarmClock.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o AlarmClock_map.ncd AlarmClock.ngd AlarmClock.pcf 
+par -w -intstyle ise -ol high -mt off AlarmClock_map.ncd AlarmClock.ncd AlarmClock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml AlarmClock.twx AlarmClock.ncd -o AlarmClock.twr AlarmClock.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f AlarmClock.ut AlarmClock.ncd 
+xst -intstyle ise -ifn "/home/ise/Xilinx_project_VM/COE203-project1/AlarmClock.xst" -ofn "/home/ise/Xilinx_project_VM/COE203-project1/AlarmClock.syr" 
+xst -intstyle ise -ifn "/home/ise/Xilinx_project_VM/COE203-project1/AlarmClock.xst" -ofn "/home/ise/Xilinx_project_VM/COE203-project1/AlarmClock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc7a100t-csg324-3 AlarmClock.ngc AlarmClock.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o AlarmClock_map.ncd AlarmClock.ngd AlarmClock.pcf 
+par -w -intstyle ise -ol high -mt off AlarmClock_map.ncd AlarmClock.ncd AlarmClock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml AlarmClock.twx AlarmClock.ncd -o AlarmClock.twr AlarmClock.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f AlarmClock.ut AlarmClock.ncd 
+xst -intstyle ise -ifn "/home/ise/Xilinx_project_VM/COE203-project1/AlarmClock.xst" -ofn "/home/ise/Xilinx_project_VM/COE203-project1/AlarmClock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc7a100t-csg324-3 AlarmClock.ngc AlarmClock.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o AlarmClock_map.ncd AlarmClock.ngd AlarmClock.pcf 
+par -w -intstyle ise -ol high -mt off AlarmClock_map.ncd AlarmClock.ncd AlarmClock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml AlarmClock.twx AlarmClock.ncd -o AlarmClock.twr AlarmClock.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f AlarmClock.ut AlarmClock.ncd 
+xst -intstyle ise -ifn "/home/ise/Xilinx_project_VM/COE203-project1/AlarmClock.xst" -ofn "/home/ise/Xilinx_project_VM/COE203-project1/AlarmClock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc7a100t-csg324-3 AlarmClock.ngc AlarmClock.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o AlarmClock_map.ncd AlarmClock.ngd AlarmClock.pcf 
+par -w -intstyle ise -ol high -mt off AlarmClock_map.ncd AlarmClock.ncd AlarmClock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml AlarmClock.twx AlarmClock.ncd -o AlarmClock.twr AlarmClock.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f AlarmClock.ut AlarmClock.ncd 
+xst -intstyle ise -ifn "/home/ise/Xilinx_project_VM/COE203-project1/AlarmClock.xst" -ofn "/home/ise/Xilinx_project_VM/COE203-project1/AlarmClock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc7a100t-csg324-3 AlarmClock.ngc AlarmClock.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o AlarmClock_map.ncd AlarmClock.ngd AlarmClock.pcf 
+par -w -intstyle ise -ol high -mt off AlarmClock_map.ncd AlarmClock.ncd AlarmClock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml AlarmClock.twx AlarmClock.ncd -o AlarmClock.twr AlarmClock.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f AlarmClock.ut AlarmClock.ncd 
+xst -intstyle ise -ifn "/home/ise/Xilinx_project_VM/COE203-project1/AlarmClock.xst" -ofn "/home/ise/Xilinx_project_VM/COE203-project1/AlarmClock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc7a100t-csg324-3 AlarmClock.ngc AlarmClock.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o AlarmClock_map.ncd AlarmClock.ngd AlarmClock.pcf 
+par -w -intstyle ise -ol high -mt off AlarmClock_map.ncd AlarmClock.ncd AlarmClock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml AlarmClock.twx AlarmClock.ncd -o AlarmClock.twr AlarmClock.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f AlarmClock.ut AlarmClock.ncd 
+xst -intstyle ise -ifn "/home/ise/Xilinx_project_VM/COE203-project1/AlarmClock.xst" -ofn "/home/ise/Xilinx_project_VM/COE203-project1/AlarmClock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc7a100t-csg324-3 AlarmClock.ngc AlarmClock.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o AlarmClock_map.ncd AlarmClock.ngd AlarmClock.pcf 
+par -w -intstyle ise -ol high -mt off AlarmClock_map.ncd AlarmClock.ncd AlarmClock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml AlarmClock.twx AlarmClock.ncd -o AlarmClock.twr AlarmClock.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f AlarmClock.ut AlarmClock.ncd 
+xst -intstyle ise -ifn "/home/ise/Xilinx_project_VM/COE203-project1/AlarmClock.xst" -ofn "/home/ise/Xilinx_project_VM/COE203-project1/AlarmClock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc7a100t-csg324-3 AlarmClock.ngc AlarmClock.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o AlarmClock_map.ncd AlarmClock.ngd AlarmClock.pcf 
+par -w -intstyle ise -ol high -mt off AlarmClock_map.ncd AlarmClock.ncd AlarmClock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml AlarmClock.twx AlarmClock.ncd -o AlarmClock.twr AlarmClock.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f AlarmClock.ut AlarmClock.ncd 
