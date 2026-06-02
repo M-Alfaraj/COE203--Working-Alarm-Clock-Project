@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Sun May  4 06:02:28 2025
+# Process ID: 3095
+# Log file: /home/ise/Xilinx_project_VM/COE203-project1/planAhead_run_2/planAhead.log
+# Journal file: /home/ise/Xilinx_project_VM/COE203-project1/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/ise/Xilinx_project_VM/COE203-project1/pa.fromNetlist.tcl
+set_property iostandard LVCMOS18 [get_ports [list AlarmLED]]
+startgroup
+set_property package_pin G14 [get_ports AlarmLED]
+endgroup
+startgroup
+set_property package_pin P17 [get_ports setTimer]
+endgroup
+set_property iostandard LVCMOS18 [get_ports [list setTimer]]
+save_constraints
